@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ----- config css ----- */
+header {
+  background: url(../img/game-presentation-slider-image-3.jpg) center/cover;
+  width: 100%;
+  height: 100vh;
+}
+header nav {
+  background: rgba(0, 0, 0, 0.322);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header nav .logo {
+  width: 15%;
+}
+header nav .logo img {
+  height: 80px;
+  width: 250px;
+  max-width: auto;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 1s ease-in-out;
+}
+header nav ul a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+header nav span {
+  background: white;
+  width: 10px;
+  height: 3px;
+}
+header nav .burger {
+  cursor: pointer;
+}
+header nav .burger span {
+  background: white;
+  width: 20px;
+  display: block;
+  margin: 2px;
+}
+header h1 {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+  letter-spacing: 20px;
+}
+header .img-title {
+  text-align: center;
+  margin-top: 35px;
+}
+header p {
+  width: 30vw;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 50px;
+}
+header .btn-theme {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 10vw;
+  padding: 20px;
+  margin-top: 100px;
+}
+header .btn-theme a {
+  color: white;
+  text-decoration: none;
+}
+header .btn-carou {
+  text-align: center;
+  margin-top: 150px;
+}
+header .btn-carou i {
+  color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.beyond {
+  background: url("../img/game-presentation-parallax-1.jpg") center/cover;
+  height: 70vh;
+  text-align: center;
+  padding-top: 10%;
+}
+.beyond p {
+  color: white;
+  font-size: 1.5rem;
+  width: 35vw;
+  margin: auto;
+}
+.beyond p, .beyond h2, .beyond img {
+  margin-top: 50px;
+}
+.beyond h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
